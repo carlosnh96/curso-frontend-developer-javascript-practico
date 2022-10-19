@@ -40,7 +40,8 @@
     </div>
     <div class="navbar-right">
       <ul>
-        <li class="navbar-email">platzi@example.com</li>
+        <li class="navbar-email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__"
+            data-cfemail="4d3d212c3937240d28352c203d2128632e2220">[email&#160;protected]</a></li>
         <li class="navbar-shopping-cart">
           <img src="./icons/icon_shopping_cart.svg" alt="shopping cart">
           <div>2</div>
@@ -94,7 +95,8 @@
       </ul>
       <ul>
         <li>
-          <a href="/" class="email">platzi@example.com</a>
+          <a href="/" class="email"><span class="__cf_email__"
+              data-cfemail="dcacb0bda8a6b59cb9a4bdb1acb0b9f2bfb3b1">[email&#160;protected]</span></a>
         </li>
         <li>
           <a href="/" class="sign-out">Sign out</a>
@@ -102,7 +104,7 @@
       </ul>
     </div>
   </nav>
-  <aside class="product-detail inactive">
+  <aside id="shoppingCartContainer" class="inactive">
     <div class="title-container">
       <img src="./icons/flechita.svg" alt="arrow">
       <p class="title">My order</p>
@@ -150,11 +152,29 @@
     </div>
     </div>
   </aside>
+  <aside id="productDetail" class="inactive">
+    <div class="product-detail-close">
+      <img src="./icons/icon_close.png" alt="close">
+    </div>
+    <img
+      src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+      alt="bike">
+    <div class="product-info">
+      <p>$35,00</p>
+      <p>Bike</p>
+      <p>With its practical position, this bike also fulfills a decorative function, add your hall or workspace.</p>
+      <button class="primary-button add-to-cart-button">
+        <img src="./icons/bt_add_to_cart.svg" alt="add to cart">
+        Add to cart
+      </button>
+    </div>
+  </aside>
   <section class="main-container">
     <div class="cards-container">
 
     </div>
   </section>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
   <script src="./main.js"></script>
 </body>
 
